@@ -1,5 +1,18 @@
 # api-lab
 
+## Install and run the tests
+
+On macOS and Linux:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest -v
+```
+
+On Windows PowerShell, activate with `.venv\Scripts\activate` instead.
+
 ## Input domain model for POST /api/ratings
 
 | Characteristic | Blocks | Values in the tests | Test that covers the block |
