@@ -15,7 +15,7 @@
 - Severity: Medium. The server crashes on customer input and the app gets no message.
 
 ## Part A
-- Step A4, status codes when the other user reads, changes and deletes:
+- Step A4, status codes when the other user reads, changes and deletes: read 404, change 400, delete 400
 
 ## Part B
 1.
